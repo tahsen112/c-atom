@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+     integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>threejs-train</title>
+    <script type="module" crossorigin src="/assets/index-CTVOXMgX.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-qj0R6VFa.css">
+  </head>
+  <body>
+
+    <div class="display">
+
+      <canvas class="threejs"></canvas>
+
+      <div class="btns">
+
+        <div class="outside-btns">
+          <button id="1">1s</button>
+          <button id="2">2s</button>
+          <button id="3">2p</button>
+          <button id="4">3s</button>
+          <button id="5">3p</button>
+          <button id="6">3d</button>
+          <button id="7">4p</button>
+          <button id="8">4d</button>
+          <button id="9">4f</button>
+        </div>
+
+        <div class="inside-btns">
+          <div class="3d" id="TD">
+            <button id="10">X² Y²</button>
+            <button id="11">X Y</button>
+            <button id="12">Z²</button>
+            <button id="13">X Z</button>
+            <button id="14">Y Z</button>
+          </div>
+
+          <div class="4d" id="FD">
+            <button id="15">X² Y²</button>
+            <button id="16">X Y</button>
+            <button id="17">Z²</button>
+            <button id="18">X Z</button>
+            <button id="19">Y Z</button>
+          </div>
+
+          <div class="4f" id="FF">
+            <button id="20">Z³</button>
+            <button id="21">Y³</button>
+            <button id="22">X³</button>
+            <button id="23">XYZ</button>
+            <button id="24">X</button>
+            <button id="25">Y</button>
+            <button id="26">Z</button>
+          </div>
+
+        </div>
+        
+      </div>
+
+      <div class="r-btns">
+        <!-- <button class="settings"><i class="fa-solid fa-gear"></i></button> -->
+
+        <button class="half"><i class="fa-solid fa-circle-half-stroke"></i></button>
+
+        <button class="hide-btns"><i class="fa-solid fa-eye-slash"></i></button>
+      </div>
+
+      <div class="BG"></div>
+
+      <div class="loading">
+        <span class="loader"></span>
+        <p>Generating...</p>
+      </div>
+
+      <h6 class="select-orbit">← select an orbital</h6>
+      
+    </div>
+
+  </body>
+</html>
